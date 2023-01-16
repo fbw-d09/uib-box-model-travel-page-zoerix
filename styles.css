@@ -1,0 +1,67 @@
+body {
+    background-color: #F3F1F1;
+    position: relative;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    margin-left: 70%;
+}
+
+header a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left {
+    background-color: white;
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 600px;
+    display: inline-block;
+
+}
+
+.left article {
+    width: 45%;
+    height: 450px;
+    margin-top: 0;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+    background-image: url(./images/beach.jpg);
+    height: 600px;
+    width: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+}
+
+main footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    margin-bottom: 150px;
+    background-color: #F3F1F1;
+    float: right;
+    width: 100%;
+}
